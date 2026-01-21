@@ -8,42 +8,42 @@ const guides = {
         num: 1,
         title: "Puesta en Escena",
         desc: "El primer paso es la Mise en Place. Asegúrate de que la barra esté impecable, sin restos de servicios anteriores. Limpia el mostrador inmediatamente tras cada cliente.",
-        image: "assets/barra_escena_1_2_3_v4_1768983099787.png",
+        image: "/assets/barra_escena_1_2_3_v4_1768983099787.png",
         panelClass: "panel-row-1"
       },
       {
         num: 2,
         title: "Bienvenida Instantánea",
         desc: "Contacto visual y saludo inmediato. Un '¡Hola, buenas!' marca la diferencia. Si estás ocupado, reconoce al cliente con un gesto para reducir su ansiedad de espera.",
-        image: "assets/barra_escena_1_2_3_v4_1768983099787.png",
+        image: "/assets/barra_escena_1_2_3_v4_1768983099787.png",
         panelClass: "panel-row-2"
       },
       {
         num: 3,
         title: "Elaboración Visual",
         desc: "El cliente 'come con los ojos'. Cuida el tiraje de cerveza o el arte en el café. No toques nunca los bordes superiores de los vasos.",
-        image: "assets/barra_escena_1_2_3_v4_1768983099787.png",
+        image: "/assets/barra_escena_1_2_3_v4_1768983099787.png",
         panelClass: "panel-row-3"
       },
       {
         num: 4,
         title: "Servicio de Cortesía",
         desc: "Sirve siempre con posavasos y un pequeño aperitivo de cortesía. Este detalle de valor percibido incentiva la estancia y el consumo.",
-        image: "assets/barra_escena_4_5_6_v4ops_1768983142616.png",
+        image: "/assets/barra_escena_4_5_6_v4ops_1768983142616.png",
         panelClass: "panel-custom-4"
       },
       {
         num: 5,
         title: "Venta Sugestiva",
         desc: "¿Acompañamos ese vino con una ración de jamón? Ofrece productos estrella de forma amable y natural.",
-        image: "assets/barra_escena_4_5_6_v4ops_1768983142616.png",
+        image: "/assets/barra_escena_4_5_6_v4ops_1768983142616.png",
         panelClass: "panel-custom-5"
       },
       {
         num: 6,
         title: "Cobro y Despedida",
         desc: "El cobro en barra debe ser el más rápido del local. Agradece la visita, invita a volver y limpia el espacio instantáneamente.",
-        image: "assets/barra_escena_4_5_6_v4ops_1768983142616.png",
+        image: "/assets/barra_escena_4_5_6_v4ops_1768983142616.png",
         panelClass: "panel-custom-6"
       }
     ]
@@ -55,49 +55,49 @@ const guides = {
         num: 1,
         title: "Montaje de Mesa",
         desc: "La escena debe ser perfecta: mantelería impecable, copas brillantes y cero ruidos innecesarios antes de abrir sala.",
-        image: "assets/mesa_escena_1_2_3_4_v4ops_1768983200740.png",
+        image: "/assets/mesa_escena_1_2_3_4_v4ops_1768983200740.png",
         panelClass: "panel-grid-1"
       },
       {
         num: 2,
         title: "Recepción y Acomodo",
         desc: "Bienvenida cálida mencionando 'Ñam'. Acompaña a los clientes a su mesa y presenta la carta abierta.",
-        image: "assets/mesa_escena_1_2_3_4_v4ops_1768983200740.png",
+        image: "/assets/mesa_escena_1_2_3_4_v4ops_1768983200740.png",
         panelClass: "panel-grid-2"
       },
       {
         num: 3,
         title: "Bebida en 2 Minutos",
         desc: "Toma de comanda de bebidas rápida. Ritual del vino: muestra la etiqueta y da a probar antes de servir por la derecha.",
-        image: "assets/mesa_escena_1_2_3_4_v4ops_1768983200740.png",
+        image: "/assets/mesa_escena_1_2_3_4_v4ops_1768983200740.png",
         panelClass: "panel-grid-3"
       },
       {
         num: 4,
         title: "Toma de Comanda",
         desc: "Postura erguida y profesional. Pregunta siempre por alérgenos y sugiere platos usando adjetivos sensoriales.",
-        image: "assets/mesa_escena_1_2_3_4_v4ops_1768983200740.png",
+        image: "/assets/mesa_escena_1_2_3_4_v4ops_1768983200740.png",
         panelClass: "panel-grid-4"
       },
       {
         num: 5,
         title: "Servicio de Platos",
         desc: "Comida por la izquierda, retirada por la derecha. Coordinación perfecta: nadie come solo, todos empiezan a la vez.",
-        image: "assets/mesa_escena_5_6_7_v4ops_1768983254415.png",
+        image: "/assets/mesa_escena_5_6_7_v4ops_1768983254415.png",
         panelClass: "panel-row-1"
       },
       {
         num: 6,
         title: "Cierre Dulce",
         desc: "Desbarase total y limpieza de migas. Ofrece postres y cafés para redondear la experiencia del cliente.",
-        image: "assets/mesa_escena_5_6_7_v4ops_1768983254415.png",
+        image: "/assets/mesa_escena_5_6_7_v4ops_1768983254415.png",
         panelClass: "panel-row-2"
       },
       {
         num: 7,
         title: "Cuenta y Despedida",
         desc: "Entrega la cuenta solo al pedirla. Despídete con una sonrisa genuina e invita a repetir la experiencia.",
-        image: "assets/mesa_escena_5_6_7_v4ops_1768983254415.png",
+        image: "/assets/mesa_escena_5_6_7_v4ops_1768983254415.png",
         panelClass: "panel-row-3"
       }
     ]
