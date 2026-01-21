@@ -1,0 +1,16 @@
+{
+    "name": "Ñam Masterclass",
+    "short_name": "Ñam Master",
+    "description": "Formación interactiva de élite para el personal de Ñam Restaurantes.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#121212",
+    "theme_color": "#EBD17C",
+    "icons": [
+        {
+            "src": "/assets/logo_nam_style_1768983041658.png",
+            "sizes": "1024x1024",
+            "type": "image/png"
+        }
+    ]
+}

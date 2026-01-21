@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" href="/assets/logo_nam_style_1768983041658.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Ñam Masterclass - Guías de Servicio</title>
+  <meta name="description"
+    content="Guías interactivas para el personal de Ñam Restaurantes: Atención en Barra y Servicio en Mesa.">
+  <!-- PWA Meta Tags -->
+  <meta name="theme-color" content="#EBD17C">
+  <link rel="apple-touch-icon" href="/assets/logo_nam_style_1768983041658.png">
+  <link rel="manifest" href="/manifest.webmanifest">
+</head>
+
+<body>
+  <div id="app">
+    <!-- Splash Screen -->
+    <header class="app-header">
+      <img src="/assets/logo_nam_style_1768983041658.png" alt="Ñam Logo" class="logo">
+      <h1>Ñam Masterclass</h1>
+    </header>
+
+    <main id="main-content">
+      <!-- Home Menu -->
+      <section id="menu-home" class="view active">
+        <div class="welcome-text">
+          <p>Selecciona una guía para comenzar tu formación interactiva.</p>
+        </div>
+        <div class="card-grid">
+          <button class="menu-card" data-guide="barra">
+            <div class="card-icon">🍺</div>
+            <div class="card-info">
+              <h3>Atención en Barra</h3>
+              <p>Agilidad y Teatralidad</p>
+            </div>
+          </button>
+          <button class="menu-card" data-guide="mesa">
+            <div class="card-icon">🍽️</div>
+            <div class="card-info">
+              <h3>Servicio en Mesa</h3>
+              <p>Hospitalidad y Tiempos</p>
+            </div>
+          </button>
+          <button class="menu-card" data-guide="quiz" id="btn-quiz">
+            <div class="card-icon">🧠</div>
+            <div class="card-info">
+              <h3>Ñam Quiz</h3>
+              <p>¡Ponte a prueba!</p>
+            </div>
+          </button>
+        </div>
+      </section>
+
+      <!-- Guide Viewer -->
+      <section id="guide-viewer" class="view">
+        <button id="btn-back" class="btn-back">← Volver</button>
+        <div id="guide-container" class="guide-scroll">
+          <!-- Steps will be injected here -->
+        </div>
+      </section>
+
+      <!-- Quiz Viewer -->
+      <section id="quiz-viewer" class="view">
+        <button id="btn-back-quiz" class="btn-back">← Volver</button>
+        <div class="quiz-header">
+          <h2>Ponte a prueba</h2>
+          <p>Toca la carta para ver la respuesta correcta</p>
+        </div>
+        <div id="quiz-container" class="quiz-cards">
+          <!-- Quiz cards will be injected here -->
+        </div>
+      </section>
+    </main>
+
+    <footer class="app-footer">
+      <p>&copy; 2026 Ñam Restaurantes</p>
+    </footer>
+  </div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
