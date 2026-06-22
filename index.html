@@ -16,8 +16,15 @@
 
 <body>
   <div id="app">
+    <!-- Global Progress Bar -->
+    <div id="scroll-progress" class="scroll-progress-bar"></div>
+
     <!-- Splash Screen -->
     <header class="app-header">
+      <div class="header-actions">
+        <button id="btn-install-pwa" class="btn-action-icon" title="Instalar Aplicación" style="display: none;">📥</button>
+        <button id="btn-theme-toggle" class="btn-action-icon" title="Cambiar Tema">🌙</button>
+      </div>
       <img src="/assets/logo_nam_style_1768983041658.png" alt="Ñam Logo" class="logo">
       <h1>Ñam Masterclass</h1>
     </header>
@@ -66,10 +73,13 @@
         <button id="btn-back-quiz" class="btn-back">← Volver</button>
         <div class="quiz-header">
           <h2>Ponte a prueba</h2>
-          <p>Toca la carta para ver la respuesta correcta</p>
+          <p id="quiz-instruction">Toca la carta para ver la respuesta correcta y vota si te la sabías</p>
         </div>
         <div id="quiz-container" class="quiz-cards">
           <!-- Quiz cards will be injected here -->
+        </div>
+        <div id="quiz-results" class="quiz-results-container" style="display: none;">
+          <!-- Results will be injected here -->
         </div>
       </section>
     </main>
@@ -78,6 +88,7 @@
       <p>&copy; 2026 Ñam Restaurantes</p>
     </footer>
   </div>
+  <canvas id="confetti-canvas"></canvas>
   <script type="module" src="/src/main.js"></script>
 </body>
 

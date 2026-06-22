@@ -17,18 +17,20 @@ Formación paso a paso contada a través de viñetas de cómic, adaptada perfect
 - **Atención en Barra**: Enfoque en agilidad, limpieza inmediata y el "teatro" de la elaboración (tiraje de cerveza, café).
 - **Servicio en Mesa y Terraza**: Enfoque en hospitalidad, tiempos de respuesta (bebida en 2 min) y asesoramiento al cliente.
 
-### 🧠 Ñam Quiz (Tarjetas Interactivas)
-Sistema de *flashcards* con animaciones 3D para reforzar los conceptos clave del manual:
-- Tiempos de servicio.
-- Protocolos de alérgenos.
-- Lados de servicio y desbarase.
-- Venta sugestiva.
+### 🧠 Ñam Quiz (Gamificación Interactiva)
+Sistema de *flashcards* interactivas individuales con animaciones 3D y evaluación en tiempo real:
+- **Autoevaluación**: Registra si sabías o no la respuesta ("Lo sabía" / "He fallado").
+- **Pantalla de Resultados**: Calcula el porcentaje de éxito al finalizar.
+- **Rangos Personalizados**: Asigna un rango de excelencia del servicio (ej. *Leyenda del Servicio*, *Experto de Sala*, etc.).
+- **Efectos de Celebración**: Animación nativa de confeti en Canvas en puntuaciones altas.
 
-### 📱 Experiencia PWA
+### 📱 Experiencia PWA e Interfaz Avanzada
 Instálala en tu móvil como una aplicación nativa sin pasar por la App Store:
-- **Acceso Directo**: Icono corporativo en tu pantalla de inicio.
-- **Modo Standalone**: Sin barras de navegación del navegador para una experiencia inmersiva.
-- **Rápida y Ligera**: Construida con Vite + Vanilla JS para un rendimiento instantáneo.
+- **Soporte Offline Completo**: Integración de Service Worker para cachear imágenes pesadas del cómic y activos, garantizando acceso en sótanos o cocinas sin cobertura.
+- **Selector de Temas (Modo Claro/Oscuro)**: Adaptable para interiores de sala o terrazas bajo el sol directo.
+- **Barra de Progreso de Lectura**: Indicador visual dinámico en la parte superior para realizar el seguimiento del avance.
+- **Navegación Fluida**: Transiciones suaves entre secciones usando la API nativa de View Transitions.
+- **Acceso Directo y Standalone**: Icono corporativo en la pantalla de inicio y visualización sin barras de navegación del navegador.
 
 ---
 
