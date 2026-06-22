@@ -57,6 +57,13 @@
               <p>¡Ponte a prueba!</p>
             </div>
           </button>
+          <button class="menu-card" data-guide="stories" id="btn-stories">
+            <div class="card-icon">🎭</div>
+            <div class="card-info">
+              <h3>Historias Ramificadas</h3>
+              <p>Toma decisiones reales</p>
+            </div>
+          </button>
         </div>
       </section>
 
@@ -80,6 +87,35 @@
         </div>
         <div id="quiz-results" class="quiz-results-container" style="display: none;">
           <!-- Results will be injected here -->
+        </div>
+      </section>
+
+      <!-- Story Viewer -->
+      <section id="story-viewer" class="view">
+        <button id="btn-back-story" class="btn-back">← Volver</button>
+        <!-- Story Selection -->
+        <div id="story-selection" class="story-selection">
+          <div class="quiz-header">
+            <h2>Historias Ramificadas</h2>
+            <p>Elige una situación real del servicio y toma las mejores decisiones</p>
+          </div>
+          <div id="story-list" class="story-list">
+            <!-- Story cards injected here -->
+          </div>
+        </div>
+        <!-- Story Node -->
+        <div id="story-node" class="story-node" style="display:none;">
+          <div id="story-panel" class="comic-panel story-comic-panel"></div>
+          <div class="story-text-box">
+            <p id="story-desc" class="step-desc"></p>
+          </div>
+          <div id="story-options" class="story-options">
+            <!-- Buttons injected here -->
+          </div>
+        </div>
+        <!-- Story Results -->
+        <div id="story-results" class="quiz-results-container" style="display:none;">
+          <!-- Results injected here -->
         </div>
       </section>
     </main>
